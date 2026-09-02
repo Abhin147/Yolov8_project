@@ -56,7 +56,7 @@ for result in results:
         )
 
 # Save the resulting image
-output_path = "output.jpg"
+output_path = "result.jpg"
 cv2.imwrite(output_path, image)
 
 print(f"Detection complete!")
